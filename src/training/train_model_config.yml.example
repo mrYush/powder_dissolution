@@ -1,0 +1,15 @@
+# data
+dataset_path: "/path/to/dataset"
+annotation_path: "/path/to/anotations.json"
+validation_file_names:
+  - fig1.jpg
+  - fig2.jpg
+  - ...
+  - figN.jpg
+destination_path: "/path/to/save/model"
+# cache
+caches_model_path: "/path/to/existing/model's/wieghts.torch"
+# models config
+seed: 42
+batch_size: 4
+epochs: 100

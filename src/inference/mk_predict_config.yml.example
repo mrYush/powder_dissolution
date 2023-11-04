@@ -1,0 +1,3 @@
+dataset_path: "path/to/dataset"
+model_path: "path/to/model.torch"
+destination_path: "path/to/destination"
