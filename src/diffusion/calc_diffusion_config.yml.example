@@ -1,0 +1,2 @@
+data_path = "path/to/data/with/predicts.pickle"
+destination_path = "path/to/destination/directory"

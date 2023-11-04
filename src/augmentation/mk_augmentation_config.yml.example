@@ -1,0 +1,2 @@
+source_path = path/to/source/folder  # images to be augumented
+destination_path = path/to/destination/folder  # augumented images will be saved here

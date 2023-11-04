@@ -1,0 +1,38 @@
+PIC_TO_DATETIME = {
+    'Experiment_002_Image010_98172': '10.03.2018 09:54:28',
+    'Experiment_002_Image012_a84b5': '10.03.2018 09:54:33',
+    'Experiment_002_Image013_fe3a5': '10.03.2018 09:54:37',
+    'Experiment_002_Image015_d9d70': '10.03.2018 09:54:43',
+    'Experiment_002_Image017_b61b2': '10.03.2018 09:54:49',
+    'Experiment_002_Image019_fb1ef': '10.03.2018 09:54:54',
+    'Experiment_002_Image021_b2d36': '10.03.2018 09:54:58',
+    'Experiment_002_Image023_06102': '10.03.2018 09:55:04',
+    'Experiment_002_Image025_673f9': '10.03.2018 09:55:09',
+    'Experiment_002_Image027_31ece': '10.03.2018 09:55:14',
+    'Experiment_002_Image029_31ff1': '10.03.2018 09:55:19',
+    'Experiment_002_Image031_34dc3': '10.03.2018 09:55:24',
+    'Experiment_002_Image033_cc4f2': '10.03.2018 09:55:30',
+    'Experiment_002_Image035_43042': '10.03.2018 09:55:35',
+    'Experiment_002_Image037_8bf5a': '10.03.2018 09:55:40',
+    'Experiment_002_Image039_22afb': '10.03.2018 09:55:45',
+    'Experiment_002_Image041_55382': '10.03.2018 09:55:49',
+    'Experiment_002_Image043_0a662': '10.03.2018 09:55:55',
+    'Experiment_002_Image045_50b4c': '10.03.2018 09:56:01',
+    'Experiment_002_Image047_fe25d': '10.03.2018 09:56:06',
+    'Experiment_002_Image049_d2807': '10.03.2018 09:56:11',
+    'Experiment_002_Image051_1163f': '10.03.2018 09:56:17',
+    'Experiment_002_Image053_def41': '10.03.2018 09:56:22',
+    'Experiment_002_Image055_3eb4c': '10.03.2018 09:56:28',
+    'Experiment_002_Image057_bb923': '10.03.2018 09:56:46',
+    'Experiment_002_Image059_342a6': '10.03.2018 09:57:03',
+    'Experiment_002_Image061_2755e': '10.03.2018 09:57:17',
+    'Experiment_002_Image063_a219f': '10.03.2018 09:57:30',
+    'Experiment_002_Image065_a8e8b': '10.03.2018 09:57:47',
+    'Experiment_002_Image067_c9e2b': '10.03.2018 09:58:00',
+    'Experiment_002_Image069_6fb1b': '10.03.2018 09:58:12',
+    'Experiment_002_Image071_9cd98': '10.03.2018 09:58:58',
+    'Experiment_002_Image072_adf56': '10.03.2018 10:00:08'
+}
+MAX_INTENSITY = 255
+IMG_SIZE = (600, 600)
+BAD_PARTS = {'aa170b6'}
