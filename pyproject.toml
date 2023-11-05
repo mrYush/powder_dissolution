@@ -2,7 +2,7 @@
 name = "powder"
 version = "0.1.0"
 description = ""
-authors = ["mrYush <yuriy.simonov@tedo.ru>"]
+authors = ["mrYush <simonovyup@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
