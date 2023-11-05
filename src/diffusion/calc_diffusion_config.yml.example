@@ -1,2 +1,4 @@
 data_path = "path/to/data/with/predicts.pickle"
 destination_path = "path/to/destination/directory"
+start_datetime = "2018-10-03 09:52:55"
+photo_square = 243.81 ** 2  # square of photo zone in mkm ** 2

@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -53,4 +54,18 @@ if __name__ == "__main__":
             picture_name = df.loc[df['peak'], 'img_name'].iloc[0]
         result[part_hash] = {'square': square, 'time_end': time_end,
                              'last_pic_name': picture_name}
-    pd.DataFrame(result).T.to_excel(destination_path / "result.xlsx")
+    result_df = pd.DataFrame(result).T
+    result_df["square_mkm"] = result_df["square"] * config["photo_square"]
+    result_df["radius_mkm"] = result_df["square_mkm"].apply(
+        lambda x: np.sqrt(x / np.pi)
+    )
+    result_df["time_end"] = pd.to_datetime(result_df["time_end"])
+    result_df["duration"] = result_df["time_end"] - datetime.strptime(
+        config["start_time"], "%Y-%m-%d %H:%M:%S"
+    )
+    result_df["diffusion_(mkm2/sec)"] = (
+            result_df["square_mkm"] / result_df["duration"].dt.total_seconds()
+    )
+    result_df["diffusion_(m2/sec)"] = result_df["diffusion_(mkm2/sec)"] * 1e-12
+    result_df.to_excel(destination_path / "result.xlsx")
+
